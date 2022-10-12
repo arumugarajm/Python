@@ -72,24 +72,7 @@ print(b)
 #################################################
 
 ########manual creation of 2D array
-
-
-b = np.array([[],[]]) # craeates an empty array
-x = int(input("Enter size of the roes:")) # type how many elements we want to create an array
-print("enter %d elements" %x) # just say how many elements we want to enter
-y = int(input("Enter size of the columns:")) # type how many elements we want to create an array
-print("enter %d elements" %y) # just say how many elements we want to enter
-
-for i in range(x):
-    for j in range(y):
-        n = int(input())
-        p = int(input())
-        b[i,j] = np.append(b[i,j],n,p) ## see the differnence here how to append elements
-    
-    
-print(b)
-
-###########################################################################
+##########################################################################
 R = int(input("Enter the number of rows:"))
 C = int(input("Enter the number of columns:"))
   
